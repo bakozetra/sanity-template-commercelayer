@@ -71,7 +71,7 @@ const ProductPage: FunctionComponent<Props> = ({
   })
   const imgUrl = parseImg(_.first(product?.images)?.url as string, cms)
   const imgALT = parseImg(_.first(product?.images)?.alt as string, cms)
-  const firstVariantCode = _.first(_.first(product?.variants)?.code)  
+  const firstVariantCode = _.first(product?.variants)?.code
   const variantOptions = product?.variants?.map((variant) => {      
     return {
       label: variant.size?.name,
@@ -152,7 +152,7 @@ const ProductPage: FunctionComponent<Props> = ({
                     </div>
                     <div className="flex justify-between items-center pt-5">
                       <span className="title-font font-medium text-2xl text-gray-900">
-                        <PricesContainer>
+                        <PricesContainer  >
                           <Price
                             skuCode={firstVariantCode}
                             className="text-green-600 mr-1"
