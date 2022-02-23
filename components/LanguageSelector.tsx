@@ -51,7 +51,7 @@ const LanguageSelector: FunctionComponent<Props> = ({ options }) => {
             </span>
             <img
               src={selectedOption?.image?.url}
-              alt={selectedOption?.name}
+              alt={selectedOption?.image?.alt}
               className="block ml-3 mt-0.5 w-6"
             />
           </span>
@@ -89,7 +89,7 @@ const LanguageSelector: FunctionComponent<Props> = ({ options }) => {
               aria-activedescendant="listbox-item-3"
               className="max-h-56 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm"
             >
-              {optionComponents.map(({ value, name, image }, k) => {
+              {optionComponents.map(({ value,image }, k) => {
                 const selected = value === selectedOption?.value
                 return (
                   <li
@@ -103,7 +103,7 @@ const LanguageSelector: FunctionComponent<Props> = ({ options }) => {
                     <div className="flex items-center">
                       <img
                         src={image?.url}
-                        alt={name}
+                        alt={image?.alt}
                         className="flex-shrink-0 w-6"
                       />
                       <span

@@ -6,13 +6,11 @@
 
 [build.environment]
   NEXT_SERVERLESS = "true"
-  SANITY_PROJECT_ID="wvv7gbzb"
-  SANITY_DATASET="production"
   BUILD_LANGUAGES = "en-US,it-IT"
-  BUILD_CMS = "sanity"
-  CL_CLIENT_ID = "ETpqt0R5oIDG8BgttE4idgGMkR6PeOkBCNnRhp-nvGk"
-  CL_ENDPOINT = "https://demo.commercelayer.io"
-
+  BUILD_CMS = "datoCMS"
+  CL_CLIENT_ID = "4qyq_BKvvspTGgOU8gZmQy3-th6RcjX7AzLVZ3Ayc6s"
+  CL_ENDPOINT = "https://synthia1.commercelayer.io"
+  NEXT_DATOCMS_API_TOKEN="e7ce43bf38a1c3c3f10984a25c1d15"
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 

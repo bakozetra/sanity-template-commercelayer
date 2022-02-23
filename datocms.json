@@ -1,0 +1,10 @@
+{
+    "name": "Template for commerce layer and datocms",
+    "description": "Simple template for commerce layer and datoCMS(Next.js , typescript , graphQL)",
+    "previewImage": "https://www.datocms-assets.com/62524/1645618643-screenshot_2022-02-23_15-16-45.png?auto=format&w=460",
+    "datocmsProjectId": "#62524",
+    "deploymentType": "static",
+    "buildCommand": "npm run build",
+    "datocmsApiTokenEnvName": "NEXT_DATOCMS_API_TOKEN",
+    "livePreviewUrl": "https://deploy-preview-1--commerce-layer-migrate-datocms.netlify.app/us/en-us"
+  }
