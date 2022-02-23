@@ -2,6 +2,8 @@
 
 A multi-country ecommerce starter that features the datocms built with Commerce Layer, Next.js, and deployed to Netlify.
 
+![](https://www.datocms-assets.com/62524/1645618643-screenshot_2022-02-23_15-16-45.png?auto=format&w=460 'A preview image showing the frontend demo with some products.')
+
 ## What is Commerce Layer?
 
 [Commerce Layer](https://commercelayer.io) is a multi-market commerce API and order management system that lets you add global shopping capabilities to any website, mobile app, chatbot, wearable, voice, or IoT device, with ease. Compose your stack with the best-of-breed tools you already mastered and love. Make any experience shoppable, anywhere, through a blazing-fast, enterprise-grade, and secure API.
